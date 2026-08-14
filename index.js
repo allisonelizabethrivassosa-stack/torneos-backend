@@ -9,7 +9,7 @@ app.use(express.json());
 
 const PORT = process.env.PORT || 3000;
 
-// Ruta de prueba
+
 app.get('/', (req, res) => {
   res.send('API de TorneosINSAL funcionando correctamente 🚀');
 });
